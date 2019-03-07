@@ -1,73 +1,122 @@
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
 @title[Introduction]
 
-<!--
-Tip! Get started with this template as follows:
-Step 1. Delete the contents of this PITCHME.md file.
-Step 2. Start adding your own custom slide content.
-Step 3. Copy slide markdown snippets from template/md directory as needed.
--->
-
-@snap[west text-25 text-bold text-white]
-GitPitch<br>*The Template*
+@snap[west text-10 text-bold text-white]
+Nat and Edd’s excellent Magento 2 Training
 @snapend
 
-@snap[south-west byline text-white text-06]
-The Fastest Way From Idea To Presentation.
+@snap
+What we learned
 @snapend
+---
+@title[Days]
+
+### Agenda for day 1
+
+Knowledge Overload
+
+<br>
+
+###Agenda for day 2
+
+Practical Underload
 
 ---
-@title[Slide Markdown]
+@title[Key Points]
 
-### Each slide in this presentation is provided as a *template*.
-
-<br><br>
-
-@snap[south span-100 text-purple text-05]
-Reuse the *markdown snippet* for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
-@snapend
+###Key Points
 
 ---
-@title[Tip! Fullscreen]
+@title[Microservices]
 
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
----?include=template/md/split-screen/PITCHME.md
+###Microservices
 
----?include=template/md/sidebar/PITCHME.md
+@fa[arrow-down]
 
----?include=template/md/list-content/PITCHME.md
++++
+@title [General Idea]
 
----?include=template/md/boxed-text/PITCHME.md
 
----?include=template/md/image/PITCHME.md
+#Splitting modules down to core functions
 
----?include=template/md/sidebox/PITCHME.md
+e.g.
+* Frontend
+* API
+* adminhtml
+* repository
+* manager
 
----?include=template/md/code-presenting/PITCHME.md
+@fa[arrow-down]
 
----?include=template/md/header-footer/PITCHME.md
++++
+@title[Inventory Source Module]
 
----?include=template/md/quotation/PITCHME.md
++++
+@title[Refactoring of Catalog Module]
 
----?include=template/md/announcement/PITCHME.md
+---
+@title [ViewModels]
 
----?include=template/md/about/PITCHME.md
+###ViewModels
 
----?include=template/md/wrap-up/PITCHME.md
+@fa[arrow-down]
 
----?image=template/img/presenter.jpg
-@title[The Template Docs]
++++
+@title[ViewModels Points]
 
-@snap[north-west sign-off]
-### **Now it's @color[#e58537](your) turn.**
-<br>
-#### Quickstart your next slide deck<br>with @size[1.4em](The GitPitch Template).
-@snapend
+###ViewModels
 
-@snap[south docslink text-gold span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend
+* Reduction of dependencies
+
+---
+@title[Splitting Controllers]
+
+###Splitting Controllers
+
++++
+@title[Splitting Controllers Points]
+
+###Splitting Controllers
+
+* Reduction of dependencies
+
+---
+@title [UI Components 0]
+
+###UI Components
+
+@fa[arrow-down]
+
++++
+@title [UI Components 1]
+
+###UI Components
+
+* Complicated
+* <span style="opacity: 0.2;">Dynamic</span>
+* <span style="opacity: 0.2;">Cacheable</span>
+
+@fa[arrow-down]
+
++++
+@title [UI Components 2]
+
+###UI Components
+
+* <span style="opacity: 0.2;">Complicated</span>
+* Dynamic
+* <span style="opacity: 0.2;">Cacheable</span>
+
+
+@fa[arrow-down]
+
++++
+@title [UI Components 3]
+
+###UI Components
+
+* <span style="opacity: 0.2;">Complicated</span>
+* <span style="opacity: 0.2;">Dynamic</span>
+* Cacheable
+
